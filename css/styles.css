@@ -1,0 +1,112 @@
+/* styles.css */
+
+
+
+
+h1{
+	font-family: "Courier New";
+	font-size: 40px;
+	color: white;
+	
+}
+
+.vehicles {
+    display: block;
+    position: relative;
+}
+
+input[type="button"] {
+    background: #77b72f;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+	border-radius: 50%;
+	font-family: "Comic Sans MS";
+	
+}
+
+input#reset {
+    background: #f43606;
+    color: white;
+	border-radius: 50%;
+	font-family: "Comic Sans MS";
+}
+
+#road {
+    background: url('../img/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 15px white; /* Adds the finish line effect */
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+
+#lambo { top: 25px; }
+#ninja { top: 30px; }
+
+#raceInfoContainer {
+	height: 200px;
+    width: 80%;
+    margin: 40px auto 0;
+    background: #005eff;
+}
+
+#raceInfoContainer h2 {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+	size: 50px;
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
+
+.raceInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+	font-family: "Comic Sans MS";
+	
+}
+
+.raceInfo span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+	font-family: "Comic Sans MS";
+}
+
+#raceInfo1 {
+    color: #2b2929;
+    font-family: "Comic Sans MS";
+	
+	
+}
+
+#raceInfo2 {
+    color: #35ff22;
+	font-family: "Comic Sans MS";
+}
+
+/* Resets the "who won?" container to null*/
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

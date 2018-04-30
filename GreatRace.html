@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+   
+    <head>
+        <title>The Great Race!</title>
+        
+		
+		<!-- Sets the background to the HTML page -->
+        <style> body{background:url(img/background.jpeg) no-repeat; background-size: 100%; </style>
+		
+		<!-- Links the stylesheet to the HTML page -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    
+    <body id="race">
+		
+        <h1><center>The Great Race!</center></h1>
+        
+		     <!-- Setting the two buttons and their ID's -->
+       <center><input type="button" value="Race!" id="go"></center>
+        <center><input type="button" value="Reset" id="reset"> </center>
+        
+		
+        <div id="road">
+		     <!-- Linking the Lamborghini and Ninja png images and puts them into the vehicles class -->
+            <img src="img/Lamborghini.png" alt="Black car" id="lambo" class="vehicles">
+            <img src="img/Ninja.png" alt="Green bike" id="ninja" class="vehicles">
+        </div>
+        
+		       <!-- Gives us the information on who won the race -->
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Who Won?</h2>
+            <div id="raceInfo1" class="raceInfo">Lamborghini<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Ninja<span></span></div>
+        </div>
+        
+        
+        
+        <!-- load CDN locally from the js folder -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+		
+		<!-- Link the script -->
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
+
